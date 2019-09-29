@@ -1,0 +1,80 @@
+
+.header{background-color: #e0e0e0; min-width:1200px; border-top: solid 3px #00a0e9; background-color: #fff;overflow: hidden;zoom:1; font-size: 0;}
+.header .logo{ width:50px;margin-right: 10px;}
+.header .headerCon{width:1200px; margin: 0 auto; height: 100px;line-height: 100px; font-size: 0}
+.header .headerCon>img{ display: inline-block; vertical-align: middle;}
+.header .headerCon{ vertical-align: middle; font-size: 0}
+.header .phone i{color:#666;margin-right: 5px}
+.header .phone{ float: right; color:#999; font-size: 18px}
+.indexNav{ height: 48px; line-height: 48px; background-color: #00a0e9;min-width:1200px;}
+.indexNavCon{width: 1200px; margin: 0 auto; font-size: 15px; display: flex; justify-content: space-around}
+.indexNavCon a{ text-align: center; flex:1; transition: all .2s; color:#fff}
+.indexNavCon a:hover{ background-color:#f8aa00}
+.indexNavCon>span{margin-left: 30px}
+.slideText{width:1200px; border: solid 1px rgba(0, 160, 233,.3); background-color: #f5f5f5; margin: 10px auto; height: 32px; line-height: 32px; display: flex; justify-content: space-around;overflow: hidden; background-color: rgba(0, 160, 233,.05);border-radius: 6px}
+.slideText .slideTitle{ flex: 1; text-align: left;text-indent: 15px}
+.slideTitleBox{flex: 1; line-height: 32px; width: 1110px;}
+.slideTitleBox>div{ margin-top: 5px}
+.slideTitleBox>div a{ color:#666}
+.slideTitleBox>div a:hover{ color:#00a0e9}
+.indexCon{ width:1200px; margin: 25px auto 10px auto}
+.tinyBorder{clear: both;width: 100%;height: 1px;background: rgba(0, 160, 233,1);margin: 0px 0 10px 0;}
+.aboutBox{ margin-right: 10px; text-align: justify}
+.boxTitle{ font-size: 16px; font-weight: normal}
+.boxTitle a{ float: right; color:#999;  font-size: 12px; margin-top: 5px}
+.boxTitle a:hover{ color:#00a0e9}
+.boxTitle span{display: inline-block;color:#fff; padding: 0px 5px; border-radius: 4px; background-color: #f8aa00; font-size: 12px; transform: scale(.8)}
+.aboutBoxImg{ text-indent: 2em;}
+.aboutBoxImg p{margin-top: -3px;  width: 232px; float: right; line-height: 1.6}
+.aboutBoxImg img{ float: left; width: 200px; height: 150px;margin-right: 8px;  box-shadow: 2px 2px 10px rgba(0,0,0,.2)}
+/* .aboutBox ul{ right: 0; text-align: right;}
+.aboutBox ul li{ float: right;box-shadow: 2px 2px 2px rgba(0,0,0,.3);}
+.aboutBox ul li button{ transform: scaleY(2);width: 20px; height: 20px; border-radius: 10px;} */
+.scrollImg{ width: 200px; height: 150px; margin-right:15px; float: left;box-shadow: 2px 2px 10px rgba(0,0,0,.2)}
+.latestBlogPostImg p{ float: left}
+.listCon{ height: 32px; line-height: 32px; color:#333; text-align: left; border-bottom: dashed 1px #ccc; cursor: pointer;transition:all .2s;}
+.listCon:hover{ color: rgba(0, 160, 233,.8); border-color: rgba(0, 160, 233,.4)}
+.listCon span{ float:right; font-size: 12px;}
+.listCon i{color:#333; margin-right: 5px; font-size: 12px; transition:all .2s; float: left; margin-top: 10px}
+.listConTitle{display:inline-block; max-width: 350px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap}
+.listConTitle a{color:#333}
+.listConTitle a:hover{color:#00a0e9}
+.listCon:hover i{color: rgba(0, 160, 233,.8);}
+.contactBox{ line-height: 32px;}
+.telNumber{ font-size: 24px;color: rgba(0, 160, 233,.8);}
+.telNumber i{ color: rgba(0, 160, 233,.8); font-size: 19px; padding: 3px; border: solid 2px   rgba(0, 160, 233,.6); border-radius: 50%;}
+.footer{border-top:solid 1px #00a0e9;clear:both;border-bottom:solid 3px #00a0e9; background-color: #00a0e9; color:#fff;min-width:1200px;}
+.footer a{ color:#fff; margin: 0 5px;}
+.footer a:hover{text-decoration: underline}
+.footer .mainFooter{width: 1200px; margin: 0 auto; min-height: 50px; padding: 25px 0; border-bottom: solid 1px rgba(255,255,255,.5)}
+.footer .subFooter {padding: 15px 0;border-top: 1px solid rgba(255, 255, 255, 0.08); text-align: center; width: 1200px; margin: 0 auto}
+/* 内页css */
+.nyWraper{width: 1200px; margin:  15px auto 55px auto; min-height: 400px;}
+.nyBoxTitle{ font-size: 14px; color:rgba(0,0,0,0.45);padding-top:4px;}
+.nyAboutBox{font-size: 14px;color: #333;line-height: 30px;padding: 10px; clear: both; min-height: 200px; margin-bottom: 30px; overflow: hidden;zoom:1;}
+.nyAboutBox img{ max-width: 100%;}
+.nyAboutBox .spanHide{visibility: hidden;}
+.nyBoxTitle a{ color:rgba(0,0,0,0.45)}
+.nyBoxTitle a:hover{color:#00a0e9}
+.boxImgboxPage .boxP{ float: left; width: 30%; margin: 0 1.5%; text-align: center}
+.boxImgboxPage img{ width: 100%; max-height:195px; box-shadow: 2px 2px 10px rgba(0,0,0,.1);transition:all .2s}
+.boxImgboxPage a{color:#333}
+.boxImgboxPage a:hover{color:#00a0e9}
+.boxImgboxPage a:hover img{ box-shadow: 2px 2px 10px rgba(0,0,0,.3)}
+.nyAboutBox ul{ float: none}
+.nyAboutBoxDetail h4.detailTitle{ font-size: 22px; color:#00a0e9; padding: 15px 0 5px 0; text-align: center}
+.nyAboutBoxDetail .subTitle{ font-size: 14px; color:#999;margin-bottom: 30px; display: block; text-align: center}
+.nyAboutBoxDetail .detailBox{  padding: 10px; text-align: justify}
+.nyAboutBoxDetail .detailBox img{ max-width: 100%; display: block; margin: 10px auto;}
+.qqKeFu{ position: fixed; right: -2px; top: 50%; margin-top: -100px;z-index: 999}
+.page404{ font-size: 24px; color:#999; text-align: center; min-height: 600px; padding-top: 200px; border: solid 1px #f5f5f5; margin: 0 auto 20px auto;width: 1200px;}
+.page404 a{ font-size:18px;  color:#666}
+.page404 a:hover{ font-size:18px; color:#00a0e9}
+.nyBoxSubTitle{display: inline-block;}
+.contactCon{ font-size: 16px; line-height: 2; color:#777}
+.contactCon span{ visibility: hidden;}
+.imgDefault{ width: 100%; height: 195px; background-color: #e0e0e0; text-align: center; line-height: 195px}
+.nyAboutUsBox p{ text-indent: 2em}
+.headerLeft{ float: left; margin-top: 22px;}
+
+
